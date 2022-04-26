@@ -1,7 +1,7 @@
 ***Go to https://www.programiz.com/python-programming/online-compiler/ to excute the program**
 
 
-name = input("Enter a charector name: ")
+name = input("Enter a charecter name: ")
 if "John" in name:
     print("Hello Johnny boy")
 else:
@@ -51,17 +51,3 @@ if "A" in response:
                   response_B3 = input("Enter your response (Run = A/Reasoning = B): ")
               if "B" in response_A3:
                   print("Mom: Not question my dicision understand?")
-                  response_B4 = input("Enter response (ask sympathy = A/go to the camp = B): ")
-                  if "A" in response_B4:
-                      print("I'll let you live if you go to the camp")
-                      response_A5 = input("Enter response (Run = A/Fight back = B): ")
-                      if "B" in response_A6:
-                          print("You fight your mom and now she is unconscoiuse what will you do next?")
-                      if "A" in response_A5:
-                          print("You ran away from you home what will you do next?")
-              word = ("You enter the bus")
-              print(name + ": Okay mom *" + word + "*.")
-          if "A" in response_B2:
-              print("Mom: I SAID YOU NEED TO GO NO OPTION YOU HAVE TO GO!")
-              print(name + ": NO MOM!")
-              print("YOU HAVE TO GO *" + "Your mom push you" + "*.")
