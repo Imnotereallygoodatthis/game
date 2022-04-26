@@ -1,7 +1,6 @@
 ***Go to https://www.programiz.com/python-programming/online-compiler/ to excute the program**
 
 
-
 name = input("Enter a charector name: ")
 if "John" in name:
     print("Hello Johnny boy")
@@ -12,7 +11,7 @@ print("Loading feet...")
 print("Loading Software...")
 print("Loading finished...")
 print("There are many option you can chose in this game CHOSE THEM WISELY.")
-start = input("And the the game is not finish yet this are currenly on Demo version type A to proceed: ")
+start = input("And the the game is not finish yet this are currently on Demo version type A to proceed: ")
 Privacy_policy = input("Privacy policy will allow me to know your location and your search history and camera type B to proceed: ")
 print("Don't type fact when you start the game.")
 if "A" in start:
@@ -33,46 +32,36 @@ if "B" in response:
     if "A" in response_B2:
         print("Mom: I SAID YOU NEED TO GO NO OPTION YOU HAVE TO GO!")
         print(name + ": NO MOM!")
-        print("Your mom shoot you with a double barrel shotgun.")
-        true_game = input("Unlock the full version for 10 dollars (What = A What = B): ")
-        if "B" in true_game:
-            print("You think that is the game? well you got two option play that game or my game :)")
-        if "A" in true_game:
-            print("You think that is the game? well you got two option play that game or my game :)")
-            print("to be continue :) codeeror: occur in line 28 and A reality changer")
 if "A" in response:
-    response_A2 = input("COME HERE RIGHT NOW OR ELSSE (Still not coming = A/Fine Fine = B): ")
+    response_A2 = input("COME HERE RIGHT NOW OR ELSE (Still not coming = A/Fine Fine = B): ")
     if "A" in response_A2:
         print("Your mom come in your room and shoot you with a double barrel shotgun")
-        true_game = input("Unlock the full version for 10 dollars (What = A What = B): ")
-        if "B" in true_game:
-            print("You think that is the game? well you got two option play that game or my game :)")
-        if "A" in true_game:
-            print("You think that is the game? well you got two option play that game or my game :)")
-            print("to be continue :) codeeror: occur in line 38 reality changer")
     elif "B" in response_A2:
           print("Mom: you are going camping")
           print(name + ": But mom I don't like camping and I got a fortnite tournament tmr.")
           print("Mom: This is not optional you need to go.")
           response_B2 = input("Enter your response (No mom I'm not going there = A /Fine mom I'll go = B): ")
           if "B" in response_B2:
-              print("Mom: Okay the bus is outside just go in the bus okay?")
+              print("Mom: Okay the Abus is outside just go in the bus okay?")
+          if "A" in response_B2:
+              print("Mom: YOU HAVE TO GO YOU HAVE NO CHOICE.")
+              response_A3 = input("Enter response (Argue back = A/Question mom's dicision = B): ")
+              if "A" in response_A3:
+                  print("*" + "Mom bring a shotgun" + "*")
+                  response_B3 = input("Enter your response (Run = A/Reasoning = B): ")
+              if "B" in response_A3:
+                  print("Mom: Not question my dicision understand?")
+                  response_B4 = input("Enter response (ask sympathy = A/go to the camp = B): ")
+                  if "A" in response_B4:
+                      print("I'll let you live if you go to the camp")
+                      response_A5 = input("Enter response (Run = A/Fight back = B): ")
+                      if "B" in response_A6:
+                          print("You fight your mom and now she is unconscoiuse what will you do next?")
+                      if "A" in response_A5:
+                          print("You ran away from you home what will you do next?")
               word = ("You enter the bus")
               print(name + ": Okay mom *" + word + "*.")
-              true_game = input("Unlock the full version for 10 dollars (What = A What = B):")
-              if "B" in true_game:
-                  print("You think that is the game? well you got two option play that game or my game :)")
-              if "A" in true_game:
-                  print("You think that is the game? well you got two option play that game or my game :)")
-                  print("to be continue :) code eror: occur in line 53 A reality changer")
-              if "A" in response_B2:
-                  print("Mom: I SAID YOU NEED TO GO NO OPTION YOU HAVE TO GO!")
-                  print(name + ": NO MOM!")
-                  print("Your mom shoot you with a double barrel shotgun.")
-                  true_game = input("Unlock the full version for 10 dollars (What = A What = B)")
-                  if "B" in true_game:
-                      print("You think that is the game? well you got two option play that game or my game :)")
-                  if "A" in true_game:
-                       print("You think that is the game? well you got two option play that game or my game :): ")
-                       print("to be continue :) codeeror: occur in line 63 reality changer")
-    
+          if "A" in response_B2:
+              print("Mom: I SAID YOU NEED TO GO NO OPTION YOU HAVE TO GO!")
+              print(name + ": NO MOM!")
+              print("YOU HAVE TO GO *" + "Your mom push you" + "*.")
